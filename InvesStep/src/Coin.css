@@ -1,0 +1,86 @@
+.coint{   
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    color:black;
+    
+   
+}
+.coinlist-item-description{
+    display: table;
+    table-layout:fixed;
+    text-align: center;  
+    margin:8px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    width: 1100px;
+    height: 40px;
+    background-color: #464655;
+    color: #EDDFEF;
+}
+
+.coinList-rank .description{
+    border: 1px solid red;
+}
+div.coinlist-item{
+    display: table;
+    table-layout:fixed;
+    text-align: center; 
+    border-radius: 5px;
+    margin:8px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+    background-color: #EDDFEF;
+    box-shadow: 0 0 5px #ccc;
+}
+.coinList-rank{
+    display: table-cell;
+    vertical-align: middle;
+}
+.coinlist-image{
+    width:50px;
+    height:50px;
+    margin-left: 50px;
+    
+    display: table-cell;
+    vertical-align: middle;
+}
+.coinlist-name{
+    
+    
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.coinList-price{
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+
+.text-red{
+    color: red;
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+
+.text-green{
+    color:green;
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+
+.coinList-volume{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.coinList-marketcap{
+    display: table-cell;
+    vertical-align: middle;
+    width: 220px;
+}

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="investstep.png" />
+    <link rel="stylesheet" href="navbar.css">
+    <script src="https://kit.fontawesome.com/a8e37f70bb.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>InvestStep</title>
+    <style>
+      *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      
+      }
+      header {
+        width:100%;
+        background-color: #EDDFEF;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 10%;
+        margin-bottom: 70px;
+      
+      }
+
+      Li, a, button {
+        text-decoration: none;
+        color: #464655;
+
+      }
+
+      .logo {
+        cursor: pointer;
+        height: 50px;
+      }
+
+      .menu {
+        list-style: none;
+          
+      }
+
+      .menu li {
+        display: inline-block;
+        padding: 0px 30px;
+      }
+
+      .menu li a {
+        transition: all 0.3s ease 0s;
+      }
+
+      .menu li a:hover {
+        color: #94958B;
+      }
+
+      button{
+        padding: 9px 25px;
+        background-color: #464655;
+        color:#EDDFEF;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        transition: all 0.3s ease 0s;
+      }
+
+      button:hover {
+        background-color:#fff;
+        color:#464655
+      }
+
+
+      footer{
+        background-color: #EDDFEF;
+        width: 100%;
+        bottom: -100px;
+        color:#464655;
+        padding: 50px 0 30px;
+        margin-top: 150px;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        font-size: 13px;
+        line-height: 20px;
+      }
+
+      .row{
+        width:85%;
+        margin:auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+      }
+
+      .col{
+        flex-basis: 25%;
+        padding: 10px;    
+      }
+
+
+
+      .logo-footer{
+        width: 40px;
+        margin-bottom: 30px;
+      }
+
+      .col h3{
+        width: fit-content;
+        margin-bottom: 40px;
+        position: relative;
+      }
+
+      .underline{
+        width: 100%;
+        height:3px;
+        background-color:#464655;
+        border-radius: 5px;
+        position: absolute;
+        top:25px;
+        box-shadow: 0 0 5px #ccc;
+          
+      }
+
+      ul li {
+        list-style: none;
+        margin-bottom: 12px;
+        text-decoration: none;
+      }
+
+      form{
+        padding-bottom: 15px;
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        border-bottom: 1px solid #464655;
+        margin-bottom: 50px;
+      }
+
+      form input {
+        width: 100%;
+        background-color:transparent;
+        color:#464655;
+        border: 0;
+        outline: none;
+      }
+
+      .social-media .fab{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 40px;
+        font-size: 20px;
+        color:#464655;
+        margin-right: 15px;
+        cursor: pointer;
+      }
+
+      hr{
+        width: 90%;
+        border: 0;
+        border-bottom: 1px solid #464655;
+        margin: 20px auto;
+      }
+
+      .copyright{
+        text-align: center;
+      }
+    </style>
+  </head>
+  <header>
+    <img src="investstep.png" class="logo" alt="logo">
+    <nav>
+        <ul class="menu">
+            <li class="item"><a href="/">Markets</a></li>
+            <li class="item"><a href="/home.html">Portfolio</a></li>
+            <li class="item"><a href="./forum.html">Chat</a></li>
+            <li class="item"><a href="#">Learn</a></li>
+        </ul>
+    </nav>
+    <a href="./log.php"><button>Sign In</button></a>
+  </header>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+
+    <footer>
+      <div class="row">
+          <div class="col">
+              <img src="investstep.png" class="logo-footer" alt="logo">
+              <p>Our mission is to provide investors with the knowledge and resources
+                  to financial freedom by building a community for all.</p>
+          </div>
+          <div class="col">
+              <h3>Office <div class="underline"></div></h3>
+              <p>401 Sunset Ave </p>
+              <p>Windsor, Ontario</p>
+              <p>N9B 3P4</p>
+              <h4>(519) 253-3000</h4>
+          </div>
+          <div class="col">
+              <h3>Links <div class="underline"></div></h3>
+              <ul>
+                  
+                  <li class="footer-li"><a href="#">Markets</a></li>
+                  <li class="footer-li"><a href="#">Portfolio</a></li>
+                  <li class="footer-li"><a href="./forum.html">Chat</a></li>
+                  <li class="footer-li"><a href="#">Learn</a></li>
+                  <li class="footer-li"><a href="./contact.html">Contact Us</a></li>
+  
+                  
+              </ul>
+          </div>
+          <div class="col">
+              <h3>Newsletter <div class="underline"></div></h3>
+              <form action="">
+                  <input type="email" placeholder="Enter your email" required>
+                  <button type="submit">Send</button>
+              </form>
+              <div class="social-media">
+                  <i class="fab fa-facebook-f"></i>
+                  <i class="fab fa-twitter"></i>
+                  <i class="fab fa-instagram"></i>
+                  <i class="fab fa-youtube"></i>
+  
+              </div>
+          </div>
+  
+      </div>
+      <hr>
+      <p class="copyright">InvestStep &copy; 2021 - All Rights Reserved</p>
+    </footer>
+  </body>
+
+  
+</html>

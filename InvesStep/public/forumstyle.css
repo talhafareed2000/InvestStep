@@ -1,0 +1,82 @@
+/* CSS for the body to have same font and font color, and background color */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	background: #f6f5f7;
+	color: black;
+}
+
+.top {
+	background-color: #EDDFEF;
+	padding: 5px;
+	font-size: 30px;
+	border-radius: 15px;
+    text-align: center;
+	width: 80%;
+	height: 100px;
+	word-wrap: break-word;
+}
+
+.box{
+	padding: 30px;
+}
+
+.boxx {
+	margin:5px;
+	background-color: #EDDFEF;
+	width: 30%;
+	height: 60%;
+	overflow: auto;
+	text-align:justify;
+	border-radius: 10px;
+	border: 1px solid #000000;
+}
+
+tbody td{
+	padding: 7px;
+}
+
+tbody tr:nth-child(odd){
+	background-color: white;
+}
+
+/*CSS for the scrollbar design */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 5px;
+	box-shadow: inset 0 0 10px rbgba(0, 0, 0, 0.25);
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	background-color: #808080;
+	border: 1px solid #000000;
+}
+	
+/* CSS for the text area and to stop resizing and has space between the label using the margin-top*/		
+textarea{
+	position: absolute;
+	left: 50%;
+	bottom: 50px;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+	border-radius: 5px;
+	width: 80%;
+	resize: none;
+  	border: 1px solid #000000;
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+}
+
+/* CSS for changing the textarea color when mouse is hovering*/		
+textarea:hover{
+	background-color: #EDDFEF;	 
+}
+

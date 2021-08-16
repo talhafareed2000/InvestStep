@@ -1,0 +1,136 @@
+.chartContainer{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 1200px;
+    height: 600px;
+    border-radius:10px; 
+    box-shadow: 0 0 10px #ccc;
+    
+}
+
+.coin-chart-name{
+    
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.coin-chart-price{
+    
+    font-weight: 600;
+    font-size: 1.2em;
+    margin-left: 20px;
+    
+}
+
+.coin-chart-percent-green{
+    color: green;
+    
+    
+}
+.coin-chart-percent-red{
+    color: red;
+    
+}
+.coin-price-percent{
+    text-align: center;
+    
+    display: table-cell;
+    width: 600px;
+    vertical-align: middle;
+
+    
+}
+
+.chart-button{
+   
+    height: 80px;
+    width: 600px;
+    display: table-cell; 
+    vertical-align: middle;
+    text-align: center;
+}
+.btn-switch{
+    border: 1px solid #CDCDCD;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #CDCDCD;
+    
+    box-shadow: 0 0 2px #ccc;
+
+}
+
+.btn-switch:hover, .btn-switch:focus{
+    color: #EDDFEF;
+    background-color:#464655;
+    outline: none;
+}
+
+.coin-chart{
+    margin: 10px;
+}
+
+.coin-data-containter{
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 100px;
+    border-radius:10px;
+    padding: 10px;
+    box-shadow: 0 0 10px #ccc;
+
+}
+
+.coin-data-row1{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    margin-top:10px;
+    justify-content: space-evenly;
+}
+
+.coin-data-row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+.coin-data-row-elements{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 400px;  
+}
+
+.coin-data-category{
+
+    width: 200px; 
+    text-align: center;
+}
+
+.coin-data{
+ 
+    width: 200px; 
+    text-align: center;
+}
+.late-change{
+    font-weight: 600;
+   
+}
+
+.coin-detail-page-loading{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+
+}
